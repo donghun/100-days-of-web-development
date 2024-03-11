@@ -6,7 +6,7 @@ function handleRequest(request, response) {
     response.end('<h1>' + new Date().toISOString() + '</h1>');
   } else if (request.url === '/') {
     response.statusCode = 200;
-    response.end('<h1>Hello World!</h1>');
+      response.end('<h1>Hello World!!</h1>');
   }
 }
 
